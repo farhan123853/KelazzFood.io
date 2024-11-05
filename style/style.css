@@ -1,0 +1,75 @@
+/* Custom colors */
+body {
+    background-color: #E0F8F7;
+}
+.navbar, .footer, .category-list, .trending, .hero {
+    background-color: #20B2AA; /* Aquamarine */
+}
+.navbar-brand, .nav-link, .footer a, .hero-title {
+    color: #FFFFFF !important;
+}
+.btn-primary, .btn-light {
+    background-color: #008080; /* Teal */
+    border-color: #008080;
+    color: white;
+}
+.btn-primary:hover, .btn-light:hover {
+    background-color: #005959;
+    border-color: #005959;
+}
+/* Sidebar for Desktop */
+.sidebar {
+    width: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: #20B2AA;
+    padding-top: 20px;
+    color: white;
+}
+.sidebar a {
+    color: black;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+}
+.sidebar a:hover {
+    background-color: #008080;
+    text-decoration: none;
+}
+
+/* Show sidebar only on large screens */
+@media (max-width: 768px) {
+    .sidebar {
+        display: none;
+    }
+}
+/* Bottom Navigation Style */
+.bottom-nav {
+    display: none;
+    background-color: #20B2AA;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    box-shadow: 0 -2px 5px rgba(0,0,0,0.2);
+}
+.bottom-nav a {
+    color: white;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+}
+/* show button nav only on small screen */
+@media (max-width: 768px) {
+    .bottom-nav {
+        display: flex;
+    }
+}
