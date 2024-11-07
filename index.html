@@ -6,50 +6,67 @@
     <title>FoodMarket - E-Commerce Makanan & Minuman</title>
     <!-- Bootstrap CSS -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
 
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="#">FoodMarket</a>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <a class="navbar-brand" href="#">KelazzFood.io</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item"><a class="nav-link" href="#">Notifikasi</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Pesan</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Wishlist</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Profil</a></li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fas fa-bell"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fas fa-envelope"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i></a>
+                </li>
             </ul>
         </div>
     </nav>
 
     <!-- Hero Section -->
-    <div id="heroCarousel" class="carousel slide my-4" data-ride="carousel">
+    <div id="heroCarousel" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <div class="card hero text-center py-5">
-                    <h2 class="hero-title mb-3">Promo Diskon hingga 50%!</h2>
-                    <p class="text-white mb-4">Nikmati makanan favorit dengan harga spesial.</p>
-                    <a href="#" class="btn btn-primary">Belanja Sekarang</a>
+                <img src="src/ayam-geprek-4636432_1280.jpg" class="d-block w-100" alt="Promo Diskon">
+                <div class="carousel-caption">
+                    <h5>Diskon 50% untuk Semua Produk!</h5>
+                    <p>Nikmati potongan harga di seluruh produk kami. Jangan lewatkan!</p>
                 </div>
             </div>
             <div class="carousel-item">
-                <div class="card hero text-center py-5">
-                    <h2 class="hero-title mb-3">Produk Trending Minggu Ini</h2>
-                    <p class="text-white mb-4">Lihat apa yang paling diminati oleh pengguna lain.</p>
-                    <a href="#" class="btn btn-primary">Lihat Tren</a>
+                <img src="src/nasi-966383_1280.jpg" class="d-block w-100" alt="Produk Baru">
+                <div class="carousel-caption">
+                    <h5>Produk Baru Telah Tiba!</h5>
+                    <p>Temukan pilihan produk makanan dan minuman terbaru di toko kami.</p>
                 </div>
             </div>
             <div class="carousel-item">
-                <div class="card hero text-center py-5">
-                    <h2 class="hero-title mb-3">Diskon S/D 50% untuk pengguna baru</h2>
-                    <p class="text-white mb-4">Jajan jadi lebih mudah dengan Kelazzfood</p>
-                    <a href="#" class="btn btn-primary">Lihat Tren</a>
+                <img src="src/ayam-geprek-4636432_1280.jpg" class="d-block w-100" alt="Makanan Terlaris">
+                <div class="carousel-caption">
+                    <h5>Menu Terlaris</h5>
+                    <p>Lihat produk yang paling banyak dipesan oleh pelanggan kami.</p>
                 </div>
             </div>
+        </div>
+        <a class="carousel-control-prev" href="#heroCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#heroCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
             <!-- Tambahkan slide tambahan sesuai kebutuhan -->
         </div>
     </div>
