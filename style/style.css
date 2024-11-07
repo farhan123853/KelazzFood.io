@@ -41,7 +41,10 @@ body {
     height: 100%;
     background-color: #20B2AA;
     padding-top: 20px;
-    color: white;
+    color:black;
+}
+.sidebar li{
+    color: a;
 }
 .sidebar a {
     color: black;
@@ -89,6 +92,15 @@ body {
 /* Card styles */
 .card {
     margin: 10px;
+}
+.mb-4 img{
+    width: 30%;
+    height: 240px;
+}
+
+.mb-2 img{
+    width: 20%;
+    height: 100px;
 }
 .col-md-2 img{
     width: 100%;
